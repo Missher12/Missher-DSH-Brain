@@ -1,0 +1,150 @@
+{
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 DeepSeek",
+  "desktopSourceSha": "861921a7c10c8f7fef7793be559af386858436f2",
+  "officialCompatibilitySourceSha": "fb2c4b9e698e30edb738bca4cf0618587db7d203",
+  "officialHarnessVersion": "0.1.5-rc.2",
+  "cordisVersion": "4.0.2",
+  "originalFiles": [
+    {
+      "path": "packages/brain/missher-brain/lib/typert.host.d.ts",
+      "sha256": "5e2d26ee86d0fe170dac8cd3f5854e67bdea334c57f40a5766ace57b8304c17d"
+    },
+    {
+      "path": "packages/brain/missher-brain/lib/typert.remote-client.d.ts",
+      "sha256": "8c7cb2498862e444218f56caebe757daba91578026f22ac3f68bede57793e688"
+    },
+    {
+      "path": "packages/brain/missher-brain/lib/types/arbiter.d.ts",
+      "sha256": "266c4e154ea42cc65c08acdd24c4a0411f9da093418d89011ed2cf1b13c2577d"
+    },
+    {
+      "path": "packages/brain/missher-brain/lib/types/contracts.d.ts",
+      "sha256": "1131d5ac0f9b100e24b03b359b4caf9f3e9a82900f7917f7e86a4885804ae5d7"
+    },
+    {
+      "path": "packages/brain/missher-brain/lib/types/index.d.ts",
+      "sha256": "c9225e97ccaba96098948591c838f3ce26669165d24417c202a6a7bfc871e2db"
+    },
+    {
+      "path": "packages/brain/missher-brain/lib/types/injection.d.ts",
+      "sha256": "74e9c10a423c5dcd97014989627ef441df5af81e270cdf7308add8c01d20399b"
+    },
+    {
+      "path": "packages/brain/missher-brain/lib/types/registry.d.ts",
+      "sha256": "977ac2ce28e35b3eb8edd2b6a609d0177f21c815bd215178d4914f74458ac303"
+    },
+    {
+      "path": "packages/brain/missher-brain/src/arbiter.ts",
+      "sha256": "f4b2810363e0d737bdca1fa985d1e014dca92a3bebb988dcdf3c39e52ac5551b"
+    },
+    {
+      "path": "packages/brain/missher-brain/src/contracts.ts",
+      "sha256": "9137afaf9fc04dbc3a65f688829af81abf1f683957c64a36d7893e1a0f17f4db"
+    },
+    {
+      "path": "packages/brain/missher-brain/src/index.ts",
+      "sha256": "553c4f28816d27766648e7762e45f6261f5e0efc00460e337d9c79804c558d54"
+    },
+    {
+      "path": "packages/brain/missher-brain/src/injection.ts",
+      "sha256": "a270ba96391daca690bf962d9a6942562771d9657ba31bcc69b0f1c3280d721b"
+    },
+    {
+      "path": "packages/brain/missher-brain/src/registry.ts",
+      "sha256": "f7504aa346093f7fb6c0fa08a02941493546d542f9790545987fb553a8310b73"
+    },
+    {
+      "path": "packages/brain/missher-brain/tests/arbiter.spec.ts",
+      "sha256": "6961fdd1a43de74b0096a77d2881697278cc371073d38afddc6478843b8dd596"
+    },
+    {
+      "path": "packages/brain/missher-brain/tests/host.spec.ts",
+      "sha256": "a214276b195c0053f3cdbde48bc06479ba69826cb20ba74f086287b3c5cc26c7"
+    },
+    {
+      "path": "packages/brain/missher-brain/tests/injection.spec.ts",
+      "sha256": "99e9dd4a404a6a66b5a9e16bd9af3219907012cc376891b29369e7e58b581f20"
+    },
+    {
+      "path": "packages/brain/missher-brain/tests/registry.spec.ts",
+      "sha256": "317d6b571007d1f112ceec86f417f7c14b1dc9f435678d596794b0721a800495"
+    },
+    {
+      "path": "packages/brain/missher-brain/tsdown.config.ts",
+      "sha256": "3f735feaf4fd9b101304b3fdee5c1435334de865e648caad056977ad62dcc6cd"
+    },
+    {
+      "path": "packages/client/ui-settings-brain/lib/types/client/BrainSettingsSection.d.ts",
+      "sha256": "98d89d7de16f906bac8940372f9a5a078f1dbd02f500ee3e8215d49ca836eb53"
+    },
+    {
+      "path": "packages/client/ui-settings-brain/lib/types/client/index.d.ts",
+      "sha256": "972a21ba5e0164bcf18203f04de22cae8d19d0027343088498a10259deaa18e2"
+    },
+    {
+      "path": "packages/client/ui-settings-brain/lib/types/client/locales.d.ts",
+      "sha256": "59eac83b9c592535f147f91e2530e94436b100e2ad2d751e83076200753749a2"
+    },
+    {
+      "path": "packages/client/ui-settings-brain/lib/types/index.d.ts",
+      "sha256": "9e47ca4cc302a4669f73cc74c016bf81b2954d164b50170cf46bbd5d0c2e6b50"
+    },
+    {
+      "path": "packages/client/ui-settings-brain/src/client/BrainSettingsSection.module.css",
+      "sha256": "81b2fa2561a522681238686e01ddf8a846f92110b463e0c33c1fed895307d6b4"
+    },
+    {
+      "path": "packages/client/ui-settings-brain/src/client/BrainSettingsSection.tsx",
+      "sha256": "2a06be7c0ddf3d637c0c528ec6707026acbef1c17f12b256493a288e14305a47"
+    },
+    {
+      "path": "packages/client/ui-settings-brain/src/client/index.ts",
+      "sha256": "ef99f0c736e0b24d246f059a5ca2080684ae179909cc904162d524fd08ad18c2"
+    },
+    {
+      "path": "packages/client/ui-settings-brain/src/client/locales.ts",
+      "sha256": "b627fffe1c80b0a277c4251bedefba5af10fd8cc24acb9e970413c26522b35f5"
+    },
+    {
+      "path": "packages/client/ui-settings-brain/src/css-modules.d.ts",
+      "sha256": "d4395f8ef04ea16601b9b84979df7de5af4ccfeb7b094c510f1442f3d8d5785a"
+    },
+    {
+      "path": "packages/client/ui-settings-brain/src/index.ts",
+      "sha256": "510607b23509aa7948496caf066d9f3c0c9f16b20ef6a8d286340190de3376ed"
+    },
+    {
+      "path": "packages/client/ui-settings-brain/tests/apply.client.spec.tsx",
+      "sha256": "6066a0df1450e45c65ed6f16dec09175c6eac2c1aa81ad8d8f86f79ed2081baa"
+    },
+    {
+      "path": "packages/client/ui-settings-brain/tests/components.client.spec.tsx",
+      "sha256": "c5ab6fe0186c30bea8cf09d8f82ad78c891e206a001e23c828cc990fbbab5834"
+    },
+    {
+      "path": "packages/client/ui-settings-brain/tsdown.config.ts",
+      "sha256": "b0ac1f1665edd84182471b8e142224c740b0bb11e9921f7bcc8f949f0f4d1abf"
+    }
+  ],
+  "adaptations": [
+    "Independent package and Bundle identity",
+    "Public Cordis/slots/locale/renderer client with package-owned generated Remote metadata",
+    "Configurable lower budgets and fail-open acceptance deadline",
+    "Duplicate recall and disposal regression fixes"
+  ],
+  "scaffoldingSources": [
+    {
+      "project": "dsh-missher-enhance",
+      "path": "scripts/build.mjs",
+      "repositoryHead": "01cecf3842d0ae9fcd6be715d2577a3ed0e4a1e1",
+      "license": "MIT (c) 2026 Missher"
+    },
+    {
+      "project": "dsh-missher-memory",
+      "path": "vitest.config.ts",
+      "repositoryHead": "a31b6dd4c97a1793910c10a88d4304787dcecd4d",
+      "license": "MIT (c) 2026 Missher"
+    }
+  ]
+}
