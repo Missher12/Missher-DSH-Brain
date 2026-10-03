@@ -1,18 +1,50 @@
 # Brain for DeepSeek Harness
 
+[← 桌面端与安装包](https://github.com/Missher12/Missher-DeepseekHarness-Desktop) · [全部插件](https://github.com/Missher12/Missher-DeepseekHarness-Desktop/blob/main/plugins/README.zh.md) · [通用安装指南](https://github.com/Missher12/Missher-DeepseekHarness-Desktop/blob/main/docs/cookbook/install-cordis-plugins.zh.md)
+
+## 新手上手：记忆与学习汇总
+
+把 Memory、MSE 等提供者的召回结果整理为一条有来源、有限额的上下文消息。
+
+| 你需要知道的事 | 说明 |
+| --- | --- |
+| 插件包名 | `dsh-missher-brain` |
+| 当前源码版本 | `0.1.2` |
+| 装好后在哪里使用 | 设置 → Memory & Learning（记忆与学习） |
+| 下载 / 源码 | [下载 0.1.2 安装包](https://github.com/Missher12/Missher-DSH-Brain/releases/tag/v0.1.2) |
+
+### 安装、启用与第一次使用
+
+1. 先从[桌面端主页](https://github.com/Missher12/Missher-DeepseekHarness-Desktop)下载适合电脑的应用，完成模型配置。这个仓库是可选插件，不是独立桌面应用。
+2. 阅读[通用安装指南](https://github.com/Missher12/Missher-DeepseekHarness-Desktop/blob/main/docs/cookbook/install-cordis-plugins.zh.md)及本页原有安装说明，核对宿主与插件版本。桌面版使用“插件 → 添加插件”；Web/CLI 使用自己的目标配置组，不混用两种安装位置。
+3. 安装后按宿主提示启用并重新加载，进入上表列出的入口。更新已有插件前保留配置和数据，不同时启用旧包名与新包名。
+4. 打开设置检查每个提供者是否可用，再在相关项目里检查召回。不要同时启用两个提供同名 missherBrain 服务的插件。
+
+### 使用前了解这些边界
+
+Brain 自身不保存记忆。没有可用的提供者时，安装 Brain 不会自动产生记忆；当前公开验证基线是 Harness 0.1.5-rc.2。
+
+如果页面或功能没出现，先检查当前应用版本、插件是否启用以及加载错误。反馈时附版本、复现步骤和已脱敏错误；不要上传 API Key、真实会话、账号 Cookie 或学习数据库。Git 中的代码更新不会自动替换电脑上已安装的插件。
+
+### 继续阅读
+
+下文保留本插件的详细行为、配置、开发和验证说明。跨平台是否实际通过，以对应版本的验证记录为准；桌面安装包能启动，不代表全部插件和外部服务都已验收。
+
+---
+
 English | [中文](README.zh.md)
 
 Give this sentence to your Agent:
 
-> Read https://raw.githubusercontent.com/Missher12/dsh-missher-brain/v0.1.2/AGENT.md, install Brain 0.1.2 into my official Harness web profile, and verify Settings → Memory & Learning while preserving existing data.
+> Read https://raw.githubusercontent.com/Missher12/Missher-DSH-Brain/v0.1.2/AGENT.md, install Brain 0.1.2 into my official Harness web profile, and verify Settings → Memory & Learning while preserving existing data.
 
 Or install with one command:
 
 ```sh
-dsh plugin --profile web add https://github.com/Missher12/dsh-missher-brain/releases/download/v0.1.2/dsh-missher-brain-0.1.2.tgz
+dsh plugin --profile web add https://github.com/Missher12/Missher-DSH-Brain/releases/download/v0.1.2/dsh-missher-brain-0.1.2.tgz
 ```
 
-**Release availability:** 0.1.2 is prepared for publication. The fixed command becomes available after that Release asset is published; DSH Market installation additionally requires catalog approval. A repository or local package alone does not make the plugin listed.
+**Release availability:** [v0.1.2](https://github.com/Missher12/Missher-DSH-Brain/releases/tag/v0.1.2) is published with its tarball and checksum. DSH Market listing remains a separate catalog operation.
 
 ## What Brain does
 
